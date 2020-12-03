@@ -13,6 +13,8 @@ int main(int argc, char **argv)
     //创建一个Publisher,发布名为chatter的topic，消息类型为std_msgs::String
     ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter",1000);
 
+    printf("123");
+
     //设置循环的频率
     ros::Rate loop_rate(10);
 
