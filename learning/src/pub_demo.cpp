@@ -17,6 +17,7 @@ int main(int argc, char **argv)
     ros::Rate loop_rate(10);
 
     int count;
+    
     while (ros::ok())
     {
         //初始化std_msgs::String类型消息
